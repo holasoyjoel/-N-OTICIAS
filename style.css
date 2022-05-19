@@ -176,6 +176,9 @@ button[type="submit"]:hover{
 .footer-derechos{
     color: rgb(0, 136, 255);
 }
+.publicidad{
+    display: none;
+}
 @media only screen and (min-width:768px){
     .main-principales{
         display: flex;
@@ -267,6 +270,7 @@ button[type="submit"]:hover{
         color: white;
     }
     .publicidad{
+        display: block;
         position: fixed;
         top: 50%;
         left: 85%;
